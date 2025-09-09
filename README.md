@@ -1,17 +1,17 @@
 # Samuel Peter
 
-# Education
-## Dartmouth College
+## Education
+### Dartmouth College
 - Description
 - Links
 
-# Work Experience
-## Keystone AI
+## Work Experience
+### Keystone AI
 - Description
 - Links
 
-# Projects
-## Insert Project
+## Projects
+### Insert Project
 - Description
 - Links
 
