@@ -60,7 +60,7 @@ a:hover{
 }
 
 .logo{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .logo:hover{
@@ -209,7 +209,7 @@ section{
 
 .icon{
     cursor: pointer;
-    height: 2rem;
+    height: 3rem;
 }
 
 /* Buttons */
