@@ -179,21 +179,23 @@ section{
 }
 
 .section__text p{
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .section__text__p1{
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .section__text__p2{
-    font-size: 1.75rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .title{
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
+    margin: 1rem 0;
 }
 
 #social-container{
