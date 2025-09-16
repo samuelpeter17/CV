@@ -390,6 +390,7 @@ article.icon{
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    position: relative;
 }
 
 .contact-info-upper-container{
@@ -419,4 +420,12 @@ article.icon{
     font-size: larger;
 }
 
+/* FOOTER */
+footer{
+    height: 10vh;
+    margin: 0 1rem;
+}
 
+footer p{
+    text-align: center;
+}
