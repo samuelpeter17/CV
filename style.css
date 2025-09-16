@@ -389,7 +389,7 @@ article.icon{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 75vh;
     position: relative;
 }
 
@@ -422,10 +422,15 @@ article.icon{
 
 /* FOOTER */
 footer{
-    height: 10vh;
+    height: 7vh;
     margin: 0 1rem;
 }
 
 footer p{
     text-align: center;
+}
+
+footer h4{
+    text-align: center;
+    padding: 1rem;
 }
