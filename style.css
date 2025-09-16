@@ -10,6 +10,9 @@
 
 body{
     font-family: "Newsreader", Montserrat;
+    margin: 0;
+    padding-top: 10vh;
+    background-color: rgb(245, 245, 245);
 }
 
 html{
@@ -37,7 +40,14 @@ nav,
 nav{
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 10vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
 }
 
 .nav-links{
@@ -71,6 +81,7 @@ a:hover{
 
 #hamburger-nav{
     display: none;
+    height: 10vh;
 }
 
 .hamburger-menu{
@@ -151,6 +162,7 @@ section{
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    scroll-margin-top: 10vh;
 }
 
 .section-container{
@@ -164,7 +176,16 @@ section{
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    min-height: 90vh;
+    position: relative;
 }
+
+#profile .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 0.45rem;
+}
+
 
 .section__pic-container{
     display: flex;
@@ -255,4 +276,79 @@ section{
 
 .btn-container{
     gap: 1rem;
+}
+
+/* ABOUT SECTION */
+#about{
+    position: relative;
+}
+
+.about-containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-containers, .about-details-container{
+    display: flex;
+}
+
+.arrow{
+    position:absolute;
+    right: -5rem;
+    bottom: 5rem;
+}
+
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background-color: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+/*Experience Section*/
+#experience{
+    position: relative;
+}
+
+.experience-sub-title{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article{
+    display: flex;
+    width: 10rem;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+article.icon{
+    cursor: default;
 }
