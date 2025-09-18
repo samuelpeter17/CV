@@ -389,7 +389,7 @@ article.icon{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 60vh;
+    height: 30vh;
     position: relative;
 }
 
@@ -422,7 +422,7 @@ article.icon{
 
 /* FOOTER */
 footer{
-    height: 7vh;
+    height: 10vh;
     margin: 0 1rem;
 }
 
